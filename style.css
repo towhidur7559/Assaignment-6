@@ -1,0 +1,52 @@
+/* Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+/* For pc*/
+
+@media only screen and (min-width: 769px){
+    .input-width{
+        margin: 30%;
+    }
+    .top-banner{
+        background-image: url('top-ban.jpg');
+        height: 50vh;
+        background-size: cover;
+}
+}
+
+/*For mobile phones*/
+@media only screen and (max-width: 768px) {
+    .input-width{
+        margin:5%;
+    }
+    .top-banner{
+        background-image: url('../img/top-ban.jpg');
+        height: 30vh;
+        background-size: cover;
+}
+} 
+.gradient-bg{
+        background-image: linear-gradient(#0066ff 0,#3582f5);
+}
+
+.spinner-div{
+    width: 32PX;
+    margin: 0 auto;
+    display: none;
+}
+.topDiv div{
+    width: 32PX;
+    margin: 0 auto;
+    display: none;
+}
+.span-width{
+    display:inline-block;
+    width: 100px;
+}
+
+div.wrap{   
+    word-wrap: break-word;
+}
